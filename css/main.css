@@ -1,0 +1,81 @@
+/* Brand Color Styles */
+.brandColors{
+    background-color: #065B65;
+    color: #ffffff;
+}
+
+.brandColorsReversed{
+    background-color: #ffffff;
+    color: #065B65;
+}
+
+.borderBrandColor{
+    border-color: #065B65;
+}
+
+.textBrandColor{
+    color:#065B65;
+}
+
+/* General Styles */
+.center{
+    text-align: center;
+}
+
+.fancy{
+    font-family: "Playwrite AU QLD", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.bigName{
+    font-size: 4em;
+}
+
+.smaller{
+    font-size: 1.5em; /* used to make h3 smaller while keeping semantics in my HTML */
+}
+    
+
+h2, h3, h4, h5{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+p, a, li{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+ul{
+    margin-left: -1em;
+}
+
+.smallSpace{
+    margin-bottom: -0.25em;
+}
+
+/* Specific Styles */
+#brandName{
+    color: #065B65;
+}
+
+#tagline{
+    font-weight: bold;
+    font-size: 1.75em;
+}
+
+#headshotRectangle{
+    height: 100vh;
+    aspect-ratio: 4 / 5.33;
+    border: 3px solid #065B65;
+    border-radius: 4px;
+}
